@@ -1,11 +1,49 @@
 body {
-  background-color: ;
+  background-color: #171493;
 }
 
-div {
-  background-color: ;
+h1 {
+  color: #ffffff;
+  text-align: center;
 }
 
-p {
+h2 {
+  color: #5e9c52;
+  text-align: center;
+}
+
+h4 {
   color: ;
+}
+body > div {
+  background-color: #4336c7;
+}
+/*div {
+  background-color: #3960a0;
+}*/
+div > p {
+  background-color: #5e9c52; /* light green */
+}
+
+a:link {
+  color: #;
+}
+
+a:visited {
+  color: #;
+}
+
+a:hover {
+  color: #;
+  text-decoration: none;
+}
+
+img {
+  background-color: #ffffff;
+  border: 4px ridge #000000;
+}
+
+footer {
+  color: #ffffff;
+  text-align: center;
 }
