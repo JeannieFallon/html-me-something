@@ -3,6 +3,21 @@
 <head>
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <title>Alphabet</title>
+    <style>
+      div.description {
+        text-align: left;
+        background-color: #ffffff;
+        width: 850px;
+        margin: auto;
+        padding: 10px 10px 5px 10px;
+      }
+      div.alphabet {
+        background-color: #eaf2f8;
+        width: 900px;
+        margin: auto;
+        padding: 25px 25px 25px 25px;
+      }
+    </style>
 </head>
 <body>
   <div>
@@ -11,20 +26,25 @@
     <img style="width: 350px" alt="Russian McDonald's" src="https://upload.wikimedia.org/wikipedia/commons/5/56/McDonald's_in_Moscow,_2008.jpg"/>
     <br><br>
     <div>
-      <p>The Russian language is written using the Cyrillic script. Modern Cyrillic derives from
-      <a href="https://en.wikipedia.org/wiki/Cyrillic_script">a writing system</a> that originated
-      with the First Bulgarian Empire in the 9th century. This 9th-century alphabet derived from
+      <p>The Russian language is written using the <a href="https://en.wikipedia.org/wiki/Cyrillic_script">
+      Cyrillic script</a>. Modern Cyrillic derives from a writing system that originated
+      with the First Bulgarian Empire in the 9th century. This 9th-century alphabet in turn derived from
       a Greek <a href="https://en.wikipedia.org/wiki/Uncial_script">uncial script</a>, an alphabet
       of only capital letters used by scribes in the 4th through 8th centuries.</p>
     </div>
-    <div>
-      <h4>Cyrillic Script</h4>
-      <p>There are 33 letters used to write modern Russian:<br>
-        А, Б, В, Г, Д, Е, Ё, Ж, З, И, Й, К, Л, М, Н, О, П, Р, С, Т, У,
-        Ф, Х, Ц, Ч, Ш, Щ, Ъ, Ы, Ь, Э, Ю, Я<br>
-        For an American English speaker, it is easiest to learn these letters by comparing
-        them to the Latin alphabet that is used to write American English. Sourced from
-      <a href="http://www.russianlessons.net/lessons/lesson1_main.php">RussianLessons.net</a>.</p>
+    <br><br>
+    <div class="alphabet">
+      <h3>Cyrillic Script</h3>
+      <div class="description">There are 33 letters used to write modern Russian. For an American English
+        speaker, the Cyrillic script is most easily learned by comparing the letters to the Latin alphabet
+        that is used to write American English:<br>
+        <ol>
+          <li><em>True Friends</em>: these letters look and sound like their Latin counterparts.</li>
+          <li><em>False Friends</em>: these letters look like their Latin counterparts but sound different.</li>
+          <li><em>Old Friends</em>: these letters have new forms but familiar English sounds.</li>
+          <li><em>New Friends</em>: these letters have new forms and new sounds.</li>
+        </ol>
+      </div>
       <ol> <!-- Sublist item: <ul><li></li></ul> -->
             <li>True Friends: same look, same sound</li>
               <ul>
@@ -131,6 +151,7 @@
                   the word "pew". (Try inflecting a very slight "y" sound onto letter before it.)</li>
               </ul>
           </ol>
+            Sourced from <a href="http://www.russianlessons.net/lessons/lesson1_main.php">RussianLessons.net</a>.
       </div>
       <div id="return">
         <a href="index.html">Return to main</a>

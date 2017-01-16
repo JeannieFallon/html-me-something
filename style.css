@@ -17,32 +17,37 @@ div > p {
   width: 850px;
   margin: auto;
   padding: 25px 25px 25px 25px;
-  text-align: center;
+  text-align: justify;
 }
 
 h1 {
   text-align: center;
+  text-shadow: 1px 1px #0000ff;
 }
 
 h2 {
   text-align: center;
 }
 
-h4 {
+h3 {
   text-align: center;
+  text-shadow: 1px 1px #0000ff;
 }
-
 /*div {
   background-color: #3960a0;
 }*/
 
 a:hover {
   text-decoration: none;
+  text-shadow: none;
+
 }
 
 #return {
   padding-top: 25px;
   text-align: center;
+  color: #ADD8E6;
+  text-shadow: 1px 0px #000000;
 }
 
 img {
@@ -53,8 +58,9 @@ img {
 }
 
 footer {
-  color: #;
+  color: #abb2b9;
   text-align: center;
+  text-shadow: 1px 1px #0000f0;
   padding-top: 10px;
   padding-bottom: 10px;
 }
